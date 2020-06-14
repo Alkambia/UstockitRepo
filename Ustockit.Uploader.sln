@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ustockit.Uploader.Tests", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ustockit.Uploader.Web.Tests", "test\Ustockit.Uploader.Web.Tests\Ustockit.Uploader.Web.Tests.csproj", "{5D441612-29CA-4DAD-9945-B9DE11CE026C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ustockit.Uploader.Shared", "Ustockit.Uploader.Shared\Ustockit.Uploader.Shared.csproj", "{434F1D6F-460B-444C-81AE-E7C960302D69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ustockit.Uploader.Shared", "src\Ustockit.Uploader.Shared\Ustockit.Uploader.Shared.csproj", "{434F1D6F-460B-444C-81AE-E7C960302D69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
