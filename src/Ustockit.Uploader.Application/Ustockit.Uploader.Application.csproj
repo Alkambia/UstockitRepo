@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Version>1.0.0.0</Version>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <AssemblyName>Ustockit.Uploader.Application</AssemblyName>
+    <PackageId>Ustockit.Uploader.Application</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <RootNamespace>Ustockit.Uploader</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Ustockit.Uploader.Shared\Ustockit.Uploader.Shared.csproj" />
+    <ProjectReference Include="..\Ustockit.Uploader.Core\Ustockit.Uploader.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Abp.EntityFrameworkCore" Version="5.9.0" />
+    <PackageReference Include="Abp.AutoMapper" Version="5.9.0" />
+    <PackageReference Include="Abp.HangFire.AspNetCore" Version="5.9.0" />
+    <PackageReference Include="HangFire.SqlServer" Version="1.7.11" />
+  </ItemGroup>
+</Project>
