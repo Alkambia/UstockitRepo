@@ -11,8 +11,8 @@
     <RootNamespace>Ustockit.Uploader</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Ustockit.Uploader.Shared\Ustockit.Uploader.Shared.csproj" />
     <ProjectReference Include="..\Ustockit.Uploader.Core\Ustockit.Uploader.Core.csproj" />
+    <ProjectReference Include="..\Ustockit.Uploader.Shared\Ustockit.Uploader.Shared.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Abp.EntityFrameworkCore" Version="5.9.0" />

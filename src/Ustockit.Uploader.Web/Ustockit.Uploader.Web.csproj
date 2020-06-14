@@ -27,6 +27,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Ustockit.Uploader.Application\Ustockit.Uploader.Application.csproj" />
     <ProjectReference Include="..\Ustockit.Uploader.EntityFrameworkCore\Ustockit.Uploader.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\Ustockit.Uploader.Shared\Ustockit.Uploader.Shared.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.4" />
